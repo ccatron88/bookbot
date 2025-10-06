@@ -2,6 +2,7 @@ import sys
 from stats import print_report  
 
 def main():
+    # check for proper tool usage
     if len(sys.argv) < 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
@@ -20,7 +21,3 @@ def main():
         ''')
 
 main()
-
-''' 
-    Updating github.
-'''
