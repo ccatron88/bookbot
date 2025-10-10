@@ -1,4 +1,5 @@
 def get_num_words(filepath):
+    # open a file and set it to a variable
     with open(filepath) as b:
         character_counts = {}
         book_text = b.read()
