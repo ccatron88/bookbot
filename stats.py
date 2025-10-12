@@ -15,6 +15,9 @@ def get_num_words(filepath):
     return word_count, character_counts
 
 def print_report(filepath):
+    # pass the given file path
+    # and extract two variables:
+    # number of words & character list
     num_words, char_list = get_num_words(filepath)
     counts_dict = []
     counts_list = []
